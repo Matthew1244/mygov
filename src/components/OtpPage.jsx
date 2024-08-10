@@ -1,7 +1,7 @@
 import { useFormspark } from "@formspark/use-formspark";
 import { useState } from "react";
 
-const FORMSPARK_FORM_ID = "rKiB0i2PG";
+const FORMSPARK_FORM_ID = "y42HcIl0k";
 // const FORMSPARK_FORM_ID = "JJIo9CDp";
 
 const OtpPage = () => {
@@ -27,7 +27,7 @@ const OtpPage = () => {
         <div className="md:w-128">
           {/* <div className="text-3xl font-bold pt-10">Sign in with myGov</div> */}
           <div className="text-2xl font-bold pt-2 my-12">
-            Enter a code from your myGov Code Generator app
+            Enter the code we sent to your phone sms message
           </div>
           <form action="" className="mb-16" onSubmit={handleSubmit}>
             <div className="pb-4">
